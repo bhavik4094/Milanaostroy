@@ -363,7 +363,6 @@ header.smaller {
     -moz-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     border: none;
-    */
 }
 
 header.header-mobile.header-float .header-inner,
@@ -409,9 +408,6 @@ header.header-center {
 header.header-center #logo {
     display: none;
 }
-
-header.smaller div#logo,
-header.s2 div#logo {}
 
 header.smaller .logo-init {
     display: none;
@@ -3308,10 +3304,23 @@ a.btn-line:hover {
     color: #ffffff;
 }
 
+a.btn-main.fx-slide {
+    color: #ffffff !important;
+    border: 2px solid var(--primary-color);
+}
+
 header:not(.header-light) a.btn-line,
 .dark-scheme a.btn-line,
 .dark-schem a.btn-line:hover {
     color: #ffffff;
+}
+
+a.btn-main:hover,
+.btn-main:hover,
+a.btn-main.btn-line:hover {
+    color: #fff;
+    background: var(--btn-hover-bg);
+    border: 2px solid #fff;
 }
 
 a.btn-main.btn-white {
