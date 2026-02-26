@@ -1,0 +1,5 @@
+Residem 1.0.2
+- New added: Homepage Single Property 4 (01_single-property-4.html)
+
+Residem 1.0.1
+- New added: Homepage Single Property 3 (01_single-property-3.html)
