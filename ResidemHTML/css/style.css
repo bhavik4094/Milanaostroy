@@ -256,6 +256,18 @@ a:hover {
 
 /* ================================================== */
 
+.card-custom {
+    background: #fff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    padding: 20px;
+}
+
+.card-custom:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
 header {
     width: 100%;
     position: absolute;
@@ -2145,8 +2157,6 @@ header.header-light .h-phone span {
     position: absolute;
 }
 
-#blog-comment li li .comment {}
-
 .comment-info {
     margin-left: 85px;
     margin-bottom: 5px;
@@ -2156,8 +2166,6 @@ header.header-light .h-phone span {
     margin-left: 0;
     margin-right: 85px;
 }
-
-.comment-info span {}
 
 .comment-info .c_name {
     display: block;
@@ -2187,8 +2195,6 @@ header.header-light .h-phone span {
 .blog-list h4 {
     color: #333;
 }
-
-.blog-list .post-wrapper {}
 
 .blog-read h4 {
     color: #333;
@@ -10861,6 +10867,10 @@ a.read_more {
 }
 h2.featured-listing-title {
     color: #103C3B;
+    padding-bottom: 20px;
+}
+p.featured-listing-des {
+    color: #000;
     padding-bottom: 20px;
 }
 a.read_more:hover {
