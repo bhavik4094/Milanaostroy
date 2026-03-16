@@ -154,6 +154,10 @@ Table of content:
     background: var(--primary-color)
 }
 
+footer.section-dark {
+    border-top: 1px solid;
+}
+
 .bg-light {
     background: var(--bg-light) !important
 }
