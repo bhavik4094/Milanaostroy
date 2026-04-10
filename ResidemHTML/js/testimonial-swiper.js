@@ -11,6 +11,7 @@
         const testimonialSwiper = new Swiper(".testimonial-swiper", {
             slidesPerView: 1.2,
             spaceBetween: 20,
+            loop: true,
             navigation: {
                 nextEl: ".testimonial-swiper-button-next",
                 prevEl: ".testimonial-swiper-button-prev",
