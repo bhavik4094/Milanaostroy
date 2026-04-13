@@ -446,23 +446,28 @@
                 </div>
             </div>
         </section>
-        <!-- <section class="video-section">
-            <div class="video-container">
-                <iframe id="yt-bg-player"
-                    src="https://www.youtube.com/embed/z5FJ75tkWE4?autoplay=1&mute=1&loop=1&playlist=z5FJ75tkWE4&controls=0&showinfo=0&rel=0&modestbranding=1&enablejsapi=1"
-                    frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
-                </iframe>
-            </div>
-            <button class="sound-toggle" id="soundToggle" aria-label="Toggle sound">
-                <i class="fa fa-volume-off" id="soundIcon"></i>
-            </button>
+        <section class="bg-light">
+            <div id="homebot_homeowner"></div>
+            <script>
+                (function (h, b) {
+                    var w = window,
+                        d = document,
+                        s = 'script',
+                        x, y;
+                    w['__hb_namespace'] = h;
+                    w[h] = w[h] || function () {
+                        (w[h].q = w[h].q || []).push(arguments)
+                    };
+                    y = d.createElement(s);
+                    x = d.getElementsByTagName(s)[0];
+                    y.async = 1;
+                    y.src = b;
+                    x.parentNode.insertBefore(y, x)
+                })('Homebot', 'https://embed.homebotapp.com/lgw/v1/widget.js');
+                Homebot('#homebot_homeowner', '7dc4b5cac20ad2a3dcba805c779bf4a3d6aba5c8e23c2625')
+            </script>
+        </section>
 
-            <div class="content">
-                <h1>ELEVATE YOUR REAL ESTATE EXPERIENCE</h1>
-                <p>Selling the Peninsula & San Francisco</p>
-                <a href="#" class="btn">Book a Strategy Session</a>
-            </div>
-        </section> -->
         <section class="bg-dark section-dark text-light">
             <div class="container">
                 <div class="row g-4 justify-content-between">
@@ -756,8 +761,8 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="text-light" href="mailto:milana@www.milanaostroy.com">
-                                        <i class="fa fa-envelope me-2"></i>milana@www.milanaostroy.com
+                                    <a class="text-light" href="mailto:milana@milanaostroy.com">
+                                        <i class="fa fa-envelope me-2"></i>milana@milanaostroy.com
                                     </a>
                                 </li>
                                 <li><a class="text-light" href="#"><i class="fa fa-user me-2"></i>Contact Us</a></li>
